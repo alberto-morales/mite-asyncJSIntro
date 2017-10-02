@@ -1,0 +1,24 @@
+{
+  "name": "commanderJS",
+  "version": "0.0.1",
+  "description": "Commander-server's node.js version",
+  "bugs": {
+    "url": "https://github.com/alberto-morales/commanderJS/issues",
+    "email": "mail@albertomorales.eu"
+  },
+  "license": "LGPL-3.0",
+  "author": "Alberto Morales <mail@albertomorales.eu> - http://albertomorales.eu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alberto-morales/commanderJS"
+  },
+  "dependencies": {},
+  "devDependencies": {
+	  "request": "^2.79.0",	  
+	  "async": "^2.1.4"
+  },
+  "scripts": {
+    "start": "node app/app.js"
+  },
+  "main": "app/app.js"
+}
